@@ -139,14 +139,7 @@ Metrics are reported individually for all 36 classes.
 
 ---
 
-## Requirements
 
--torch
--torchvision
--numpy
--scikit-learn
--matplotlib
--seaborn
 
 
 
