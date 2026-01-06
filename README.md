@@ -24,7 +24,9 @@ The project follows a progressive modeling strategy, starting with exploratory d
 
 ## Part 1: Exploratory Data Analysis and Classical Machine Learning
 
-File: `eda_ml_random_forest.ipynb`
+File: `EDA.ipynb`
+File: `analysis-using-ml.ipynb`
+
 
 ### Workflow
 
@@ -139,12 +141,12 @@ Metrics are reported individually for all 36 classes.
 
 ## Requirements
 
-torch
-torchvision
-numpy
-scikit-learn
-matplotlib
-seaborn
+-torch
+-torchvision
+-numpy
+-scikit-learn
+-matplotlib
+-seaborn
 
 
 
