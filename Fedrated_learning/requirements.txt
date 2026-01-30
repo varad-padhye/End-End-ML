@@ -1,0 +1,41 @@
+# -------------------------
+# Core Python & Math
+# -------------------------
+numpy
+scipy
+
+# -------------------------
+# Data Handling & Analysis
+# -------------------------
+pandas
+matplotlib
+seaborn
+
+# -------------------------
+# PyTorch Core
+# -------------------------
+torch
+
+
+
+# -------------------------
+# Transfer Learning & Models
+# -------------------------
+scikit-learn
+
+# -------------------------
+# Federated Learning
+# -------------------------
+flwr
+
+# -------------------------
+# Deployment & Visualization
+# -------------------------
+streamlit
+
+
+# -------------------------
+# Notebook / Dev (optional but common)
+# -------------------------
+jupyter
+ipykernel
