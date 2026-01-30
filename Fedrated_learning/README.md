@@ -19,18 +19,17 @@ The goals of this module are to:
 ---
 
 ## Project Structure
+```
 Fedrated_learning/
-│
 ├── models/
-│ └── global_model.pth
-│
+│   └── global_model.pth
 ├── logs/
-│ └── metrics.csv
-│
+│   └── metrics.csv
 ├── app.py
 ├── train_federated.py
 ├── requirements.txt
 └── README.md
+```
 
 
 ---
@@ -40,40 +39,43 @@ After federated training completes, the global model parameters are saved using 
 
 ```python
 torch.save(global_model.state_dict(), "models/global_model.pth")
-Visualization and Monitoring
+```
+
+## Visualization and Monitoring
 
 A lightweight Streamlit application is used to visualize federated training metrics and summarize model performance.
 This separates training from analysis and provides an easy-to-understand interface for inspecting results.
 
-Features
+## Features
 
-Loads saved training metrics from disk
+- Loads saved training metrics from disk
 
-Plots global model accuracy across federated rounds
+- Plots global model accuracy across federated rounds
 
-Displays final model performance summary
+- Displays final model performance summary
 
-Safely handles missing or empty log files
+- Safely handles missing or empty log files
 
-Running the Application
+## Running the Application
 
 To launch the Streamlit dashboard, run:
-
+``` python
 streamlit run app.py
+```
 
-Dependencies
+## Dependencies
 
 All required dependencies for the project can be installed using:
-
+``` python
 pip install -r requirements.txt
-
+```
 
 Key libraries used include:
 
-PyTorch – Model training, evaluation, and persistence
+- PyTorch – Model training, evaluation, and persistence
 
-Flower (flwr) – Federated learning framework
+- Flower (flwr) – Federated learning framework
 
-Pandas and Matplotlib – Data analysis and visualization
+- Pandas and Matplotlib – Data analysis and visualization
 
-Streamlit – Deployment and monitoring interface
+- Streamlit – Deployment and monitoring interface
